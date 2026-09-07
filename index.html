@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mapas Interactivos</title>
+  <style>
+    body { font-family: sans-serif; padding: 2rem; background: #f4f4f9; color: #333; }
+    h1 { margin-bottom: 0.5rem; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-top: 1.5rem; }
+    .card { background: white; padding: 1.5rem; border-radius: 8px; text-decoration: none; color: inherit; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    .card:hover { transform: translateY(-3px); }
+    .card h3 { margin-top: 0; color: #0066cc; }
+  </style>
+</head>
+<body>
+  <h1>Mapas Interactivos</h1>
+  <p>Seleccione un mapa para consultar:</p>
+
+  <div class="grid">
+    <a href="./mapa_desocupacion/" class="card">
+      <h3>Población Desocupada</h3>
+      <p>Ver mapa →</p>
+    </a>
+
+    <a href="./mapa_empresas/" class="card">
+      <h3>Empresas</h3>
+      <p>Ver mapa →</p>
+    </a>
+
+    <a href="./mapa_inp/" class="card">
+      <h3>Índice de Necesidad Prioritaria</h3>
+      <p>Ver mapa →</p>
+    </a>
+  </div>
+</body>
+</html>
