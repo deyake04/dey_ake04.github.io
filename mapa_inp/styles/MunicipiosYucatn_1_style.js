@@ -9,8 +9,8 @@ var style_MunicipiosYucatn_1 = function(feature, resolution){
     
     var labelText = ""; 
     var value = feature.get("inp");
-    var labelFont = "10px, sans-serif";
-    var labelFill = "#000000";
+    var labelFont = "7.800000000000001px \'Lato\', sans-serif";
+    var labelFill = "#323232";
     var bufferColor = "";
     var bufferWidth = 0;
     var textAlign = 'left';
@@ -19,8 +19,8 @@ var style_MunicipiosYucatn_1 = function(feature, resolution){
     var overflow = false;
     var repeat = 0;
     var placement = 'point';
-    if ("" !== null) {
-        labelText = String("");
+    if (feature.get("NOMGEO") !== null) {
+        labelText = String(feature.get("NOMGEO"));
     }
     if (value >= 0.643300 && value <= 0.895000) {
             style = [ new ol.style.Style({
