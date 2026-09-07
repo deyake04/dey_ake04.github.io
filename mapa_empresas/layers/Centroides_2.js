@@ -1,0 +1,1 @@
+var json_Centroides_2 = {"type":"FeatureCollection","name":"Centroides_2","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[]}
